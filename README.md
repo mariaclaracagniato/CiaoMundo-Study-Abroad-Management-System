@@ -83,7 +83,7 @@ Favoritar bolsas
 
 ## 📸 Preview
 
-![Home](public/images/home.png)
-![Documentos](public/images/docs.png)
-![Notificações do Usuário](public/images/notificacoes.png)
-![Bolsas de estudo](public/images/bolsas.png)
+![Home](./public/images/home.png)
+![Documentos](./public/images/docs.png)
+![Notificações do Usuário](./public/images/notificacoes.png)
+![Bolsas de estudo](./public/images/bolsas.png)
