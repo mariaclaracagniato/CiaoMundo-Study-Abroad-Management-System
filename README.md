@@ -83,10 +83,10 @@ Favoritar bolsas
 
 ## 📸 Preview
 
-![Home](images/home.png)
+![Home](./images/home.png)
 
-![Documentos](images/docs.png)
+![Documentos](./images/docs.png)
 
-![Notificações](images/notificacoes.png)
+![Notificações](./images/notificacoes.png)
 
-![Bolsas](images/bolsas.png)
+![Bolsas](./images/bolsas.png)
