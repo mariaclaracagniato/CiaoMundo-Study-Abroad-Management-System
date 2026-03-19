@@ -84,11 +84,12 @@ Favoritar bolsas
 ## 📸 Preview
 
 
+## 📸 Preview
 
-![Home](images/home.png)
+![Home](https://raw.githubusercontent.com/mariaclaracagniato/CiaoMundo-Study-Abroad-Management-System/main/images/home.png)
 
-![Documentos](images/docs.png)
+![Documentos](https://raw.githubusercontent.com/mariaclaracagniato/CiaoMundo-Study-Abroad-Management-System/main/images/docs.png)
 
-![Notificações](images/notificacoes.png)
+![Notificações](https://raw.githubusercontent.com/mariaclaracagniato/CiaoMundo-Study-Abroad-Management-System/main/images/notificacoes.png)
 
-![Bolsas](images/bolsas.png)
+![Bolsas](https://raw.githubusercontent.com/mariaclaracagniato/CiaoMundo-Study-Abroad-Management-System/main/images/bolsas.png)
