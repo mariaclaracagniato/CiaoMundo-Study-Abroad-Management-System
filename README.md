@@ -1,16 +1,14 @@
+# 🌍 CiaoMundo - Plataforma de Intercâmbio
 
-# 🌍 CiaoMundo - Study Abroad Platform
-
-## 📌 Sobre o projeto
-O CiaoMundo é uma plataforma web desenvolvida para auxiliar estudantes brasileiros na busca por bolsas de estudo internacionais, reunindo informações, filtros personalizados e ferramentas de planejamento em um único lugar.
+> Plataforma web para auxiliar estudantes brasileiros na busca por bolsas de estudo internacionais, reunindo filtros personalizados, simulação de custos e ferramentas de planejamento em um só lugar.
 
 ---
 
 ## 👩‍💻 Minha contribuição
-Atuei principalmente no desenvolvimento do **frontend**, sendo responsável por:
 
-- Construção das interfaces do sistema
-- Estruturação das páginas com HTML, CSS e JavaScript
+Atuei principalmente no **frontend** do projeto, sendo responsável por:
+
+- Construção e estruturação das interfaces com HTML, CSS e JavaScript
 - Implementação da navegação e experiência do usuário
 - Integração com o backend
 
@@ -18,78 +16,68 @@ Atuei principalmente no desenvolvimento do **frontend**, sendo responsável por:
 
 ## 🚀 Tecnologias utilizadas
 
-### Frontend
-- HTML5
-- CSS3
-- JavaScript
-
-### Backend
-- Node.js
-- Express
-
-### Banco de Dados
-- MySQL
+| Camada | Tecnologias |
+|---|---|
+| Frontend | HTML5, CSS3, JavaScript |
+| Backend | Node.js, Express |
+| Banco de Dados | MySQL |
 
 ---
 
 ## ⚙️ Como rodar o projeto
 
 ### 1. Clonar o repositório
-
 ```bash
 git clone https://github.com/mariaclaracagniato/CiaoMundo-Study-Abroad-Management-System.git
 cd CiaoMundo-Study-Abroad-Management-System
+```
 
-2. Instalar dependências
+### 2. Instalar dependências
+```bash
 npm install
-3. Configurar o banco de dados
+```
 
-Crie um banco chamado:
+### 3. Configurar o banco de dados
+- Crie um banco chamado `sistema_bolsas`
+- Importe o arquivo `.sql` disponível no repositório
 
-sistema_bolsas
+### 4. Configurar variáveis de ambiente
 
-Importe o arquivo .sql disponível no projeto
-
-4. Configurar o ambiente
-
-Crie um arquivo .env com base no .env.example:
-
+Crie um arquivo `.env` com base no `.env.example`:
+```env
 DB_HOST=localhost
 DB_USER=seu_usuario
 DB_PASSWORD=sua_senha
 DB_NAME=sistema_bolsas
 PORT=3000
 JWT_SECRET=sua_chave
-5. Executar o projeto
+```
+
+### 5. Executar o projeto
+```bash
 npm start
-6. Acessar no navegador
+```
+
+### 6. Acessar no navegador
+```
 http://localhost:3000
+```
 
+---
 
-🧠 Funcionalidades
+## 🧠 Funcionalidades
 
-Visualização de bolsas de estudo
+- 🔍 Visualização e filtro de bolsas por país, curso e universidade
+- 🔐 Sistema de login e cadastro
+- 💰 Simulação de custos
+- ⭐ Favoritar bolsas
+- 🛠️ Área administrativa
 
-Filtros por país, curso e universidade
-
-Sistema de login e cadastro
-
-Simulação de custos
-
-Favoritar bolsas
-
-Área administrativa
-
-
-## 📸 Preview
-
+---
 
 ## 📸 Preview
 
 ![Home](https://raw.githubusercontent.com/mariaclaracagniato/CiaoMundo-Study-Abroad-Management-System/main/images/home.png)
-
 ![Documentos](https://raw.githubusercontent.com/mariaclaracagniato/CiaoMundo-Study-Abroad-Management-System/main/images/docs.png)
-
 ![Notificações](https://raw.githubusercontent.com/mariaclaracagniato/CiaoMundo-Study-Abroad-Management-System/main/images/notificacoes.png)
-
 ![Bolsas](https://raw.githubusercontent.com/mariaclaracagniato/CiaoMundo-Study-Abroad-Management-System/main/images/bolsas.png)
